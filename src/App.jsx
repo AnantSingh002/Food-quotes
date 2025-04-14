@@ -2,7 +2,7 @@
 import './App.css'
 import Header from './components/Header'
 import Quotes from './components/Quotes'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,7 +11,7 @@ function App() {
     <>
      <Header />
      <Quotes />
-     {/* <Footer /> */}
+     <Footer />
     </>
   )
 }

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import Fquote from './Fquote';
+// import './quote.css'
 
 function Quotes() {
 
@@ -18,15 +20,16 @@ function Quotes() {
     }
     
   return (
-    <div className='container'>
-
-        <h1>Quotes section </h1>
-        <div>
-            {}
+    <> 
+    <div className='quoteContainer'>
+        {/* <h1>Quotes section </h1> */}
+        <div className='quoteContainer'>
+            {quote.map((q) =>{
+                return < Fquote key={q.id} {...q} />
+            })}
         </div>
-
-
     </div>
+    </>
   )
 }
 

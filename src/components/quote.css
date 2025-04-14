@@ -1,0 +1,37 @@
+
+.quoteContainer {
+    padding-top: 10vh;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .quoteCard {
+    background-color: #1c2833; /* dark navy/charcoal */
+    border-radius: 10px;
+    padding: 2rem;
+    width: 90%;
+    /* max-width: 900px; */
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 80px;
+  }
+  
+  .quoteText {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    /* line-height: 1.6; */
+  }
+  
+  .quoteAuthor {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b0b8c1; /* subtle grayish text */
+  }
+  
