@@ -1,0 +1,22 @@
+footer{
+    background-color: #F3F4F6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+  }
+
+  footer img{
+    height: 100px;
+    width: 300px;
+  }
+
+  .des{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  

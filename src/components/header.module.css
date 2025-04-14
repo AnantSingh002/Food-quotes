@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    background-color: #111827;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    /* justify-content: center; */
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+}
+
+
+.list ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style: none;
+}
+
+.list ul li:hover{
+    color: blue;
+}
+
+.button button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.button button:hover{
+    background-color: rgb(6, 6, 165);
+}
